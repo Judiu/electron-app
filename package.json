@@ -198,6 +198,7 @@
     "punycode": "^2.3.0",
     "queue-microtask": "^1.2.3",
     "quick-lru": "^5.1.1",
+    "react": "^18.2.0",
     "react-is": "^16.13.1",
     "reflect.getprototypeof": "^1.0.4",
     "regexp.prototype.flags": "^1.5.1",
@@ -256,11 +257,14 @@
     "yocto-queue": "^0.1.0"
   },
   "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
     "electron": "^26.2.4"
   },
   "scripts": {
     "dev": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "author": "Fredy Piraquive",
   "license": "ISC"
